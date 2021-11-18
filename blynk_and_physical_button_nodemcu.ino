@@ -1,8 +1,8 @@
 #define BLYNK_PRINT Serial
 
-#define BLYNK_TEMPLATE_ID "TMPL9VQ2XyDK"
+#define BLYNK_TEMPLATE_ID "TEMPLATE_ID"
 #define BLYNK_DEVICE_NAME "Quickstart Template"
-#define BLYNK_AUTH_TOKEN "ctJnNVEn7PyeGf-3R4qI0EQtzSYXf5xK"
+#define BLYNK_AUTH_TOKEN "AUTH_TOKEN"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -16,8 +16,8 @@ const int FAN_PIN = 13;
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "Binh Minh";
-char pass[] = "0979906430";
+char ssid[] = "SSID";
+char pass[] = "PASS";
 int state = 0;
 
 AceButton button(BUTTON_PIN);
